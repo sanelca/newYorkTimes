@@ -40,3 +40,20 @@ body {
     color: #666;
     margin-top: 4px;    
 }
+
+.mainContent .contentSection {
+    float: left;
+    width: 100%;
+}
+.mainContent .contentSection .leftContentPart, .mainContent .contentSection .rightContentPart {
+
+}
+.mainContent .contentSection .leftContentPart {
+
+}
+.mainContent .contentSection .rightContentPart {
+
+}
+.mainContent .contentSection .centerContentPart {
+
+}
