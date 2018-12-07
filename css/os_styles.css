@@ -1,0 +1,29 @@
+.header-icons{
+  font-size: large;
+
+}
+
+.header-items{
+    float: left;
+    margin-right: 2em;
+}
+
+.header {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.header > button {
+    float: right;
+    background-color: #6889a2;
+    color: white;
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+.header > .header-image {
+    width: 10em;
+    height: auto;
+}
