@@ -50,12 +50,47 @@ body {
     width: 26%;
     min-height: 10px;
     display: table-cell;
+    position: relative;
 }
+
 .mainContent .contentSection .leftContentPart {
 
 }
 .mainContent .contentSection .rightContentPart {
 
+}
+.mainContent .contentSection .rightContentPart .centeredVertticaly {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+.mainContent .contentSection .rightContentPart .centeredVertticaly .box {
+    float: left;
+    width: 90%;
+    padding: 5%;
+    overflow: hidden;
+}
+.mainContent .contentSection .rightContentPart .centeredVertticaly .box h3 {
+    margin: 0;    
+}
+.mainContent .contentSection .rightContentPart .centeredVertticaly .box .articles {
+    float: left;
+    margin-top: 10px;   
+}
+.mainContent .contentSection .rightContentPart .centeredVertticaly .box .articles a {
+    float: left;
+    cursor: pointer;
+    margin-bottom: 10px;  
+}
+.mainContent .contentSection .rightContentPart .centeredVertticaly .box .articles a img {
+    float: left;
+    width: 75px;    
+}
+.mainContent .contentSection .rightContentPart .centeredVertticaly .box .articles a span {
+    float: left;
+    width: 174px;
+    margin-left: 7px;    
 }
 .mainContent .contentSection .centerContentPart {
     width: 48%;
