@@ -1,0 +1,42 @@
+body {
+    float: left;
+    width: 100%;
+    font-family: ariel;
+}
+.mainContent {
+    float: left;
+    width: 100%;
+}
+.mainContent .spaceRipples {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.mainContent .spaceRipples .box {
+    float: left;
+    width: 100%;
+}
+.mainContent .spaceRipples h1 {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;    
+}
+.mainContent .spaceRipples img {
+    float: left;
+    width: 100%;    
+}
+.mainContent .spaceRipples p {
+    float: left;
+    margin: 0;
+    margin-top: 10px;
+    width: 76%;
+    color: #666;
+}
+.mainContent .spaceRipples span {
+    float: left;
+    font-size: 14px;
+    color: #666;
+    margin-top: 4px;    
+}
