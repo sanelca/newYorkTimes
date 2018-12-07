@@ -44,9 +44,12 @@ body {
 .mainContent .contentSection {
     float: left;
     width: 100%;
+    display: table;
 }
 .mainContent .contentSection .leftContentPart, .mainContent .contentSection .rightContentPart {
-
+    width: 26%;
+    min-height: 10px;
+    display: table-cell;
 }
 .mainContent .contentSection .leftContentPart {
 
@@ -55,5 +58,6 @@ body {
 
 }
 .mainContent .contentSection .centerContentPart {
-
+    width: 48%;
+    display: table-cell;
 }
