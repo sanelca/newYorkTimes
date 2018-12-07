@@ -57,6 +57,3 @@
 .sub-title-caption{
     font-size: 0.8rem;
 }
-
-db.transactions.update({'reference':'1544196088735'},{$set:{'status': '1'}})
-$2b$10$VBqO22c4RokQC3UiD0KYpOskoCkGNw3NETj7BTpT54A5g.Rm5kPDG => fiRe@2wall
