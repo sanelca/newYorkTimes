@@ -39,3 +39,24 @@
     border-radius: 3px;
     font-weight: 700;
 }
+
+.centerContentPart {
+    font-size: 1.42rem;
+    line-height: 1.8;
+}
+.centerContentPart > iframe{
+    width: 100%;
+    height: 16em;
+}
+.video-caption {
+    color: #666;
+}
+.main-caption{
+    font-size: 0.9rem;
+}
+.sub-title-caption{
+    font-size: 0.8rem;
+}
+
+db.transactions.update({'reference':'1544196088735'},{$set:{'status': '1'}})
+$2b$10$VBqO22c4RokQC3UiD0KYpOskoCkGNw3NETj7BTpT54A5g.Rm5kPDG => fiRe@2wall
