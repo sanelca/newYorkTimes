@@ -1,29 +1,41 @@
-.header-icons{
-  font-size: large;
-
-}
-
-.header-items{
-    float: left;
+.header .fas {
+    font-size: large;
     margin-right: 2em;
 }
 
-.header {
+.header{
     padding-left: 3em;
     padding-right: 3em;
 }
 
-.header > button {
+.header-center {
+    float: left;
+    width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header-left {
+    float: left;
+    width: 40%;
+}
+
+.header-right {
+    width: 20%;
     float: right;
+}
+
+.header svg {
+    text-align: center;
+    width: 12em;
+    height: auto;
+}
+
+.header button {
     background-color: #6889a2;
     color: white;
     padding: 1em;
     border: 1px solid black;
     border-radius: 3px;
     font-weight: 700;
-}
-
-.header > .header-image {
-    width: 10em;
-    height: auto;
 }
