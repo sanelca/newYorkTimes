@@ -41,10 +41,10 @@
 }
 
 .centerContentPart {
-    font-size: 1.42rem;
+    font-size: 1.40rem;
     line-height: 1.8;
 }
-.centerContentPart > iframe{
+.centerContentPart > .video-section-youtube{
     width: 100%;
     height: 16em;
 }
@@ -56,4 +56,11 @@
 }
 .sub-title-caption{
     font-size: 0.8rem;
+}
+
+.theory-of-inflation-section {
+    border: 0;
+    overflow: hidden;
+    width: 1px;
+    min-width: 100%;
 }
