@@ -198,10 +198,11 @@ body {
     float: left;
     width: 20%;
 }
-.footer .urlSections .leftPart .list h3 {
+.footer .urlSections .leftPart .list h3, .footer .urlSections .rightPart h3 {
     margin: 0;
     font-size: 13px;
     font-family: sans-serif;
+    margin-bottom: 10px;
 }
 .footer .urlSections .leftPart .list a {
     float: left;
@@ -229,4 +230,28 @@ body {
     font-size: 13px;
     color: #436ac1;
     cursor: pointer;    
+}
+.footer .urlSections .rightPart {
+    float: left;
+    width: 16%;
+    padding-left: 1%;
+    border-left: solid 1px #dcdcdc;
+}
+.footer .urlSections .rightPart .mainUrlPart {
+    float: left;
+    width: 100%;
+}
+.footer .urlSections .rightPart .mainUrlPart a {
+    float: left;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.footer .urlSections .rightPart .mainUrlPart a span {
+    float: left;
+    margin-left: 5px;
+}
+.footer .urlSections .rightPart .mainUrlPart a svg {
+    float: left;
+    width: 15px;
 }
