@@ -2,6 +2,7 @@ body {
     float: left;
     width: 100%;
     font-family: ariel;
+    margin: 0;
 }
 .mainContent {
     float: left;
@@ -95,4 +96,52 @@ body {
 .mainContent .contentSection .centerContentPart {
     width: 48%;
     display: table-cell;
+}
+.bellowMainContentSection {
+
+}
+.bellowMainContentSection h3 {
+    
+}
+.bellowMainContentSection .leftSideWithThumnails {
+    
+}
+.bellowMainContentSection .leftSideWithThumnails .editorsPics {
+    
+}
+.bellowMainContentSection .leftSideWithThumnails .editorsPics .articles {
+    
+}
+.bellowMainContentSection .leftSideWithThumnails .editorsPics .articles .columnArticle {
+    
+}
+.bellowMainContentSection .leftSideWithThumnails .editorsPics .articles .columnArticle.columnLeft{
+    
+}
+.bellowMainContentSection .leftSideWithThumnails .editorsPics .articles .columnArticle.columnCenter {
+    
+}
+.bellowMainContentSection .leftSideWithThumnails .editorsPics .articles .columnArticle.columnRight {
+    
+}
+.bellowMainContentSection .leftSideWithThumnails .editorsPics .articles .columnArticle .article {
+    
+}
+.bellowMainContentSection .leftSideWithThumnails .editorsPics .articles .columnArticle .article .image {
+    
+}
+.bellowMainContentSection .leftSideWithThumnails .editorsPics .articles .columnArticle .article .image img {
+    
+}
+.bellowMainContentSection .leftSideWithThumnails .editorsPics .articles .columnArticle .article .categoryName {
+    
+}
+.bellowMainContentSection .leftSideWithThumnails .editorsPics .articles .columnArticle .article a {
+    
+}
+.bellowMainContentSection .leftSideWithThumnails .editorsPics .articles .columnArticle .article .dateCreated {
+    
+}
+.bellowMainContentSection .rightSideSidebar {
+
 }
