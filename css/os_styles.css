@@ -98,7 +98,7 @@
 }
 
 .trendingListItem{
-    border-bottom: 1px solid rgb(226, 226, 226);
+    border-top: 1px solid rgb(226, 226, 226);
     padding: 15px 0px;
     font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
 }
