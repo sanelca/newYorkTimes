@@ -98,32 +98,42 @@ body {
     display: table-cell;
 }
 .bellowMainContentSection {
-
+    float: left;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .bellowMainContentSection h3 {
-    
+    margin: 0;
+    padding-top: 15px;
+    border-top: solid 1px;    
 }
 .bellowMainContentSection .leftSideWithThumnails {
-    
+    float: left;
+    width: 74%;    
 }
 .bellowMainContentSection .leftSideWithThumnails .editorsPics {
-    
+    float: left;
+    width: 100%;
+    padding-bottom: 50px;    
 }
 .bellowMainContentSection .leftSideWithThumnails .editorsPics .articles {
-    
+    float: left;
+    display: table;
+    margin-top: 15px;    
 }
 .bellowMainContentSection .leftSideWithThumnails .editorsPics .articles .columnArticle {
-    
+    width: 32%;
+    display: table-cell;
+    vertical-align: top;
 }
-.bellowMainContentSection .leftSideWithThumnails .editorsPics .articles .columnArticle.columnLeft{
-    
-}
+
 .bellowMainContentSection .leftSideWithThumnails .editorsPics .articles .columnArticle.columnCenter {
-    
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 36%;
 }
-.bellowMainContentSection .leftSideWithThumnails .editorsPics .articles .columnArticle.columnRight {
-    
-}
+
 .bellowMainContentSection .leftSideWithThumnails .editorsPics .articles .columnArticle .article {
     
 }
@@ -131,17 +141,32 @@ body {
     
 }
 .bellowMainContentSection .leftSideWithThumnails .editorsPics .articles .columnArticle .article .image img {
-    
+    float: left;
+    width: 100%;    
 }
 .bellowMainContentSection .leftSideWithThumnails .editorsPics .articles .columnArticle .article .categoryName {
-    
+    float: left;
+    width: 100%;
+    text-align: right;
+    font-size: 12px;
+    color: #8e8e8e;
+    margin-top: 5px;    
 }
 .bellowMainContentSection .leftSideWithThumnails .editorsPics .articles .columnArticle .article a {
-    
+    float: left;
+    width: 100%;
+    font-size: 21px;
+    cursor: pointer;    
 }
 .bellowMainContentSection .leftSideWithThumnails .editorsPics .articles .columnArticle .article .dateCreated {
-    
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 12px;
+    color: grey;    
 }
 .bellowMainContentSection .rightSideSidebar {
-
+    width: 23%;
+    float: left;
+    padding-left: 3%;
 }
