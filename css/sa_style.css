@@ -170,3 +170,63 @@ body {
     float: left;
     padding-left: 3%;
 }
+
+
+.footer {
+    float: left;
+    width: 96%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.footer .headPart {
+    float: left;
+    width: 100%;
+    padding-top: 10px;
+    border-top: solid 4px #cecece;
+}
+
+.footer .urlSections {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+}
+.footer .urlSections .leftPart {
+    float: left;
+    width: 82%;
+}
+.footer .urlSections .leftPart .list {
+    float: left;
+    width: 20%;
+}
+.footer .urlSections .leftPart .list h3 {
+    margin: 0;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.footer .urlSections .leftPart .list a {
+    float: left;
+    width: 100%;
+    line-height: 25px;
+    color: #333333;
+    text-decoration: none;
+}
+.footer .urlSections .leftPart .list a:hover {
+
+}
+.footer .headPart {
+    float: left;
+    width: 100%;
+    padding-top: 10px;
+    border-top: solid 4px #cecece;    
+}
+.footer .headPart svg {
+    float: left;
+    width: 180px;
+    cursor: pointer;   
+}
+.footer .headPart a {
+    float: right;
+    font-size: 13px;
+    color: #436ac1;
+    cursor: pointer;    
+}
