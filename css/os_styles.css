@@ -107,3 +107,86 @@
     color: black;
     text-decoration: none;
 }
+.article-item {
+    float: left;
+    width: 32%;
+    font-size: 21px;
+    cursor: pointer;
+}
+.article-image {
+    width: 100%;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.articles-list{
+    float: left;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.article-item > span.categoryName {
+    color: #8e8e8e;
+    font-size: 12px;
+    margin-top: 5px;
+    float: left;
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+
+.article-item > a {
+    margin-top: 5px;
+    float: left;
+}
+
+.article-item > span.dateCreated {
+    margin-top: 5px;
+    float: left;
+    font-size: 12px;
+    color: gray;
+}
+
+div.urlSections div.leftPart div.list  a{
+    display: inline-block;
+    font-family: nyt-franklin;
+    text-transform: capitalize;
+    font-weight: 500;
+    height: 23px;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+footer > .nav-footer-links {
+    width: 100%;
+    text-align: center;
+    float: left;
+    padding-top: 9px;
+    border-top: 1px solid rgb(235, 235, 235);
+    color: rgb(153, 153, 153);
+}
+
+footer p.nav-footer-links a {
+    padding-right: 0.7rem;
+    padding-left: 0.7rem;
+    font-size: 13px;
+}
+
+p.bottom-subscribe {
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-color: #333333;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+    font-size: 17px;
+}
+p.bottom-subscribe span {
+    float: right;
+    padding-right: 7rem;
+    font-weight: 700;
+    color: white;
+}
