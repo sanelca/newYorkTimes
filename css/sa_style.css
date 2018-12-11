@@ -281,3 +281,25 @@ body {
     float: left;
     width: 15px;
 }
+.footer .urlSections .rightPart .bellow {
+
+}
+.footer .urlSections .rightPart .bellowMainPart {
+    float: left;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #e0e0e0;
+    margin-bottom: 10px;
+    margin-top: 15px;
+} 
+.footer .urlSections .rightPart .bellow a {
+    float: left;
+    width: 100%;
+    font-size: 13px;
+    cursor: pointer;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.footer .urlSections .rightPart .bellow a:hover {
+    text-decoration: underline;
+}
