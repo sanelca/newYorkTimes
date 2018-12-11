@@ -97,6 +97,32 @@ body {
     width: 48%;
     display: table-cell;
 }
+.mainContent .contentSection .centerContentPart h3 {
+
+}
+.mainContent .contentSection .centerContentPart p {
+    
+}
+.mainContent .contentSection .centerContentPart .imagePart {
+    
+}
+.mainContent .contentSection .centerContentPart .imagePart img {
+    float: left;
+    width: 100%;    
+}
+.mainContent .contentSection .centerContentPart .imagePart p {
+    float: left;
+    margin: 0;
+    font-size: 17px;
+    color: grey;
+}    
+}
+.mainContent .contentSection .centerContentPart .imagePart span {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    color: grey;    
+}
 .bellowMainContentSection {
     float: left;
     width: 90%;
