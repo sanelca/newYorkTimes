@@ -190,3 +190,28 @@ p.bottom-subscribe span {
     font-weight: 700;
     color: white;
 }
+
+div.contentSection.belowSpecialTime div.centerContentPart div.miniCaption {
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    width: calc(100% - 40px);
+    max-width: 600px;
+    color: #999;
+}
+
+div.contentSection.belowSpecialTime div.centerContentPart div.miniCaption span a {
+    text-decoration: none;
+    color: #999;
+}
+
+div.contentSection.belowSpecialTime div.centerContentPart div.socialButtonsBelowCaptio i {
+    font-size: small;
+    margin-top: 12px;
+    margin-right: 16px;
+    margin-bottom: 70px;
+    padding: 7px;
+    width: auto;
+    background-color: #eee;
+    border-radius: 100%;
+}
