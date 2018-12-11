@@ -214,4 +214,5 @@ div.contentSection.belowSpecialTime div.centerContentPart div.socialButtonsBelow
     width: auto;
     background-color: #eee;
     border-radius: 100%;
+    cursor: pointer;
 }
