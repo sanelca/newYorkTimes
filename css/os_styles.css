@@ -216,3 +216,16 @@ div.contentSection.belowSpecialTime div.centerContentPart div.socialButtonsBelow
     border-radius: 100%;
     cursor: pointer;
 }
+
+p.title-of-article-sub span.social-buttons i {
+    font-size: medium;
+    padding: 7px;
+    background-color: #eee;
+    border-radius: 100%;
+}
+p.title-of-article-sub span {
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-weight: 500;
+    color: #333;
+    font-size: medium;
+}
