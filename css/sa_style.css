@@ -22,7 +22,11 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     float: left;
-    width: 100%;    
+    width: 100%;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    padding-left: 20%;
+    padding-right: 10%;
+    width: 40%;
 }
 .mainContent .spaceRipples img {
     float: left;
