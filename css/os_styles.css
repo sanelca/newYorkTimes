@@ -61,8 +61,10 @@
 .theory-of-inflation-section {
     border: 0;
     overflow: hidden;
-    width: 1px;
+    width: 100%;
     min-width: 100%;
+    height: 50rem;
+    overflow: hidden;
 }
 
 .sign-up-little-box-body {
@@ -228,4 +230,8 @@ p.title-of-article-sub span {
     font-weight: 500;
     color: #333;
     font-size: medium;
+}
+
+iframe{
+    border: 0px;
 }
