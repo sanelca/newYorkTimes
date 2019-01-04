@@ -1,0 +1,237 @@
+.header .fas {
+    font-size: large;
+    margin-right: 2em;
+}
+
+.header{
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.header-center {
+    float: left;
+    width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header-left {
+    float: left;
+    width: 40%;
+}
+
+.header-right {
+    width: 20%;
+    float: right;
+}
+
+.header svg {
+    text-align: center;
+    width: 12em;
+    height: auto;
+}
+
+.header button {
+    background-color: #6889a2;
+    color: white;
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+.centerContentPart {
+    font-size: 1.40rem;
+    line-height: 1.8;
+}
+.centerContentPart > .video-section-youtube{
+    width: 100%;
+    height: 16em;
+}
+.video-caption {
+    color: #666;
+}
+.main-caption{
+    font-size: 0.9rem;
+}
+.sub-title-caption{
+    font-size: 0.8rem;
+}
+
+.theory-of-inflation-section {
+    border: 0;
+    overflow: hidden;
+    width: 100%;
+    min-width: 100%;
+    height: 50rem;
+    overflow: hidden;
+}
+
+.sign-up-little-box-body {
+    color: rgb(98, 136, 165);
+}
+.sign-up-little-box {
+    width: 70%;
+}
+.sign-up-little-box-button {
+    background-color: #6889a2;
+    color: white;
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-weight: 900;
+    width: 100%;
+}
+
+.sign-up-little-box-heading {
+    color: rgb(0, 0, 0);
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.275rem;
+    line-height: 1.125rem;
+    margin-bottom: 5px;
+}
+
+.trendingList {
+    list-style: none;
+    padding: 0px;
+    font-size: 1.18em;
+}
+
+.trendingListItem{
+    border-top: 1px solid rgb(226, 226, 226);
+    padding: 15px 0px;
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+}
+
+.trendingListItem > a {
+    color: black;
+    text-decoration: none;
+}
+.article-item {
+    float: left;
+    width: 32%;
+    font-size: 21px;
+    cursor: pointer;
+}
+.article-image {
+    width: 100%;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.articles-list{
+    float: left;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.article-item > span.categoryName {
+    color: #8e8e8e;
+    font-size: 12px;
+    margin-top: 5px;
+    float: left;
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+
+.article-item > a {
+    margin-top: 5px;
+    float: left;
+}
+
+.article-item > span.dateCreated {
+    margin-top: 5px;
+    float: left;
+    font-size: 12px;
+    color: gray;
+}
+
+div.urlSections div.leftPart div.list  a{
+    display: inline-block;
+    font-family: nyt-franklin;
+    text-transform: capitalize;
+    font-weight: 500;
+    height: 23px;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+footer > .nav-footer-links {
+    width: 100%;
+    text-align: center;
+    float: left;
+    padding-top: 9px;
+    border-top: 1px solid rgb(235, 235, 235);
+    color: rgb(153, 153, 153);
+}
+
+footer p.nav-footer-links a {
+    padding-right: 0.7rem;
+    padding-left: 0.7rem;
+    font-size: 13px;
+}
+
+p.bottom-subscribe {
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-color: #333333;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+    font-size: 17px;
+}
+p.bottom-subscribe span {
+    float: right;
+    padding-right: 7rem;
+    font-weight: 700;
+    color: white;
+}
+
+div.contentSection.belowSpecialTime div.centerContentPart div.miniCaption {
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    width: calc(100% - 40px);
+    max-width: 600px;
+    color: #999;
+}
+
+div.contentSection.belowSpecialTime div.centerContentPart div.miniCaption span a {
+    text-decoration: none;
+    color: #999;
+}
+
+div.contentSection.belowSpecialTime div.centerContentPart div.socialButtonsBelowCaptio i {
+    font-size: small;
+    margin-top: 12px;
+    margin-right: 16px;
+    margin-bottom: 70px;
+    padding: 7px;
+    width: auto;
+    background-color: #eee;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+p.title-of-article-sub span.social-buttons i {
+    font-size: medium;
+    padding: 7px;
+    background-color: #eee;
+    border-radius: 100%;
+}
+p.title-of-article-sub span {
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-weight: 500;
+    color: #333;
+    font-size: medium;
+}
+
+iframe{
+    border: 0px;
+}

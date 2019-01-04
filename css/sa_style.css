@@ -1,0 +1,309 @@
+body {
+    float: left;
+    width: 100%;
+    font-family: ariel;
+    margin: 0;
+}
+.mainContent {
+    float: left;
+    width: 100%;
+}
+.mainContent .spaceRipples {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.mainContent .spaceRipples .box {
+    float: left;
+    width: 100%;
+}
+.mainContent .spaceRipples h1 {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    padding-left: 20%;
+    padding-right: 10%;
+    width: 40%;
+}
+.mainContent .spaceRipples img {
+    float: left;
+    width: 100%;    
+}
+.mainContent .spaceRipples p {
+    float: left;
+    margin: 0;
+    margin-top: 10px;
+    width: 76%;
+    color: #666;
+}
+.mainContent .spaceRipples span {
+    float: left;
+    font-size: 14px;
+    color: #666;
+    margin-top: 4px;    
+}
+
+.mainContent .contentSection {
+    float: left;
+    width: 100%;
+    display: table;
+}
+.mainContent .contentSection .leftContentPart, .mainContent .contentSection .rightContentPart {
+    width: 26%;
+    min-height: 10px;
+    display: table-cell;
+    position: relative;
+}
+
+.mainContent .contentSection .leftContentPart {
+
+}
+.mainContent .contentSection .rightContentPart {
+
+}
+.mainContent .contentSection .rightContentPart .centeredVertticaly {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+.mainContent .contentSection .rightContentPart .centeredVertticaly .box {
+    float: left;
+    width: 90%;
+    padding: 5%;
+    overflow: hidden;
+}
+.mainContent .contentSection .rightContentPart .centeredVertticaly .box h3 {
+    margin: 0;    
+}
+.mainContent .contentSection .rightContentPart .centeredVertticaly .box .articles {
+    float: left;
+    margin-top: 10px;   
+}
+.mainContent .contentSection .rightContentPart .centeredVertticaly .box .articles a {
+    float: left;
+    cursor: pointer;
+    margin-bottom: 10px;  
+}
+.mainContent .contentSection .rightContentPart .centeredVertticaly .box .articles a img {
+    float: left;
+    width: 75px;    
+}
+.mainContent .contentSection .rightContentPart .centeredVertticaly .box .articles a span {
+    float: left;
+    width: 174px;
+    margin-left: 7px;    
+}
+.mainContent .contentSection .centerContentPart {
+    width: 48%;
+    display: table-cell;
+}
+.mainContent .contentSection .centerContentPart h3 {
+
+}
+.mainContent .contentSection .centerContentPart p {
+    
+}
+.mainContent .contentSection .centerContentPart .imagePart {
+    
+}
+.mainContent .contentSection .centerContentPart .imagePart img {
+    float: left;
+    width: 100%;    
+}
+.mainContent .contentSection .centerContentPart .imagePart p {
+    float: left;
+    margin: 0;
+    font-size: 17px;
+    color: grey;
+}    
+}
+.mainContent .contentSection .centerContentPart .imagePart span {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    color: grey;    
+}
+.bellowMainContentSection {
+    float: left;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.bellowMainContentSection h3 {
+    margin: 0;
+    padding-top: 15px;
+    border-top: solid 1px;    
+}
+.bellowMainContentSection .leftSideWithThumnails {
+    float: left;
+    width: 74%;    
+}
+.bellowMainContentSection .leftSideWithThumnails .editorsPics {
+    float: left;
+    width: 100%;
+    padding-bottom: 10px;    
+}
+.bellowMainContentSection .leftSideWithThumnails .editorsPics .articles {
+    float: left;
+    display: table;
+    margin-top: 15px;    
+}
+.bellowMainContentSection .leftSideWithThumnails .editorsPics .articles .columnArticle {
+    width: 32%;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.bellowMainContentSection .leftSideWithThumnails .editorsPics .articles .columnArticle.columnCenter {
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 36%;
+}
+
+.bellowMainContentSection .leftSideWithThumnails .editorsPics .articles .columnArticle .article {
+    
+}
+.bellowMainContentSection .leftSideWithThumnails .editorsPics .articles .columnArticle .article .image {
+    
+}
+.bellowMainContentSection .leftSideWithThumnails .editorsPics .articles .columnArticle .article .image img {
+    float: left;
+    width: 100%;    
+}
+.bellowMainContentSection .leftSideWithThumnails .editorsPics .articles .columnArticle .article .categoryName {
+    float: left;
+    width: 100%;
+    text-align: right;
+    font-size: 12px;
+    color: #8e8e8e;
+    margin-top: 5px;    
+}
+.bellowMainContentSection .leftSideWithThumnails .editorsPics .articles .columnArticle .article a {
+    float: left;
+    width: 100%;
+    font-size: 21px;
+    cursor: pointer;    
+}
+.bellowMainContentSection .leftSideWithThumnails .editorsPics .articles .columnArticle .article .dateCreated {
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 12px;
+    color: grey;    
+}
+.bellowMainContentSection .rightSideSidebar {
+    width: 23%;
+    float: left;
+    padding-left: 3%;
+}
+
+
+.footer {
+    float: left;
+    width: 96%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.footer .headPart {
+    float: left;
+    width: 100%;
+    padding-top: 10px;
+    border-top: solid 4px #cecece;
+}
+
+.footer .urlSections {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+}
+.footer .urlSections .leftPart {
+    float: left;
+    width: 82%;
+}
+.footer .urlSections .leftPart .list {
+    float: left;
+    width: 20%;
+}
+.footer .urlSections .leftPart .list h3, .footer .urlSections .rightPart h3 {
+    margin: 0;
+    font-size: 13px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.footer .urlSections .leftPart .list a {
+    float: left;
+    width: 100%;
+    line-height: 25px;
+    color: #333333;
+    text-decoration: none;
+}
+.footer .urlSections .leftPart .list a:hover {
+
+}
+.footer .headPart {
+    float: left;
+    width: 100%;
+    padding-top: 10px;
+    border-top: solid 4px #cecece;    
+}
+.footer .headPart svg {
+    float: left;
+    width: 180px;
+    cursor: pointer;   
+}
+.footer .headPart a {
+    float: right;
+    font-size: 13px;
+    color: #436ac1;
+    cursor: pointer;    
+}
+.footer .urlSections .rightPart {
+    float: left;
+    width: 16%;
+    padding-left: 1%;
+    border-left: solid 1px #dcdcdc;
+}
+.footer .urlSections .rightPart .mainUrlPart {
+    float: left;
+    width: 100%;
+}
+.footer .urlSections .rightPart .mainUrlPart a {
+    float: left;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.footer .urlSections .rightPart .mainUrlPart a span {
+    float: left;
+    margin-left: 5px;
+}
+.footer .urlSections .rightPart .mainUrlPart a svg {
+    float: left;
+    width: 15px;
+}
+.footer .urlSections .rightPart .bellow {
+
+}
+.footer .urlSections .rightPart .bellowMainPart {
+    float: left;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #e0e0e0;
+    margin-bottom: 10px;
+    margin-top: 15px;
+} 
+.footer .urlSections .rightPart .bellow a {
+    float: left;
+    width: 100%;
+    font-size: 13px;
+    cursor: pointer;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.footer .urlSections .rightPart .bellow a:hover {
+    text-decoration: underline;
+}
